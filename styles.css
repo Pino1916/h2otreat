@@ -1,0 +1,64 @@
+/* styles.css for dark aesthetics with Brush Script MT font */
+
+/* Root variables for dark mode colors */
+:root {
+  --background-color: #121212; /* Dark background */
+  --text-color: #eeeeee; /* Light text */
+  --accent-color: #809fff; /* Accent color for links */
+  --font-family: 'Brush Script MT', cursive; /* Brush Script MT font */
+}
+
+/* Apply global styles */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+}
+
+/* Style links */
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons styling */
+button {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-family: var(--font-family);
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #6076cc; /* Slightly darker accent on hover */
+}
+
+/* Typography settings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
