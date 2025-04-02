@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wastewater Treatment Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wastewater Treatment Game</h1>
+        <p>Select a Pokémon to perform a treatment:</p>
+        <select id="option">
+            <option value="">--Select an Option--</option>
+            <option value="1">Bulbasaur (pH Reduction - Sulfuric Acid)</option>
+            <option value="2">Squirtle (pH Increase - Sodium Hydroxide)</option>
+            <option value="3">Pikachu (BOD Reduction - Alum)</option>
+            <option value="4">Charizard (COD Reduction - Potassium Permanganate)</option>
+            <option value="5">Snorlax (Distribute Treated Water)</option>
+            <option value="6">Professor Oak (Explain Process)</option>
+        </select>
+        <button id="calculate">Calculate</button>
+        <p id="result"></p>
+        <img id="pokemon-img" src="" alt="Pokemon">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
